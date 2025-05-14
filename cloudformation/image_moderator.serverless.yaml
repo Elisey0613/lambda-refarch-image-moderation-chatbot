@@ -56,7 +56,7 @@ Resources:
     Properties:
       Description: Inspects Slack message.channels events for images with explicit content and removes the offending images if found
       Handler: moderate_image.lambda_handler
-      Runtime: python3.6
+      Runtime: python3.11
       CodeUri: ../lambda_functions/
       Timeout: 10
       Environment:
